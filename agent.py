@@ -1,8 +1,8 @@
 class Agent: 
-  def __init__(self, agent_id, name):
+  def __init__(self, agent_id: int, name: str):
     self.agent_id = agent_id 
     self.name = name 
-    self.properties_listed = {} # List of properties listed by the agent (list of Property objects).
+    self.properties_listed: dict = {} # List of properties listed by the agent (list of Property objects).
 
   def list_property(self, property):
     if property not in self.properties_listed:
