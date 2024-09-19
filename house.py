@@ -6,8 +6,3 @@ class House(Property) :
     self.num_bedrooms = num_bedrooms 
     self.num_bathrooms = num_bathrooms
     self.lot_size = lot_size 
-
-
-# house1 = House("123 Maple St", 250000, 3, 2, 2000)
-# print(house1.mark_sold())
-# print(house1)

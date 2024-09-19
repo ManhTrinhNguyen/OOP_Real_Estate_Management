@@ -6,3 +6,4 @@ class Commercial(Property):
     self.bussiness_type = bussiness_type 
     self.square_footage = square_footage 
 
+

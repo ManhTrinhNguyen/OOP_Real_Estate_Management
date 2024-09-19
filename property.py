@@ -8,9 +8,8 @@ class Property:
   def __str__(self) -> str:
     return f"House address: {self.address}, Price: {self.price}, Type: {self.type}, Availability: {self.availability}"
 
-  def mark_sold(self): 
+  def mark_sold(self): # Mark as sold
     self.availability = False 
     return 'Sold'
   
 
-  

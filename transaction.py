@@ -1,6 +1,6 @@
 class Transaction:
   # Instances Attribute 
-  def __init__(self, transaction_id: int, agent, property, transaction_type, client) -> None:
+  def __init__(self, transaction_id: int, agent, client, property, transaction_type) -> None:
     self.transaction_id = transaction_id # Unique identifier for the transaction (integer)
     self.agent = agent # The agent involved in the transaction (an Agent object). 
     self.property = property # The property involved in the transaction (a Property object).
